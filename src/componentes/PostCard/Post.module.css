@@ -1,11 +1,15 @@
 .post {
+    background-color: var(--post-fundo);
     text-align: center;
     width: 282px;
+    min-height: 200px;
+    font-weight: bolder ;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
     padding-bottom: 1.5rem;
     transition: transform .2s;
 }
+
 
 .post:hover {
     transform: translate(0, -1rem);
@@ -13,12 +17,15 @@
 
 .capa {
     width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
 }
 
 .titulo {
     font-family: var(--fonte-secundaria);
     font-size: 1.25rem;
-    color: var(--azul-escuro);
+    color: var(--branco);
     line-height: 1.75rem;
     margin: 1.5rem 0 1.75rem;
 }

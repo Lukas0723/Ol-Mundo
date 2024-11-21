@@ -1,17 +1,21 @@
 * {
+  background-color: var();
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 :root {
-  --azul-escuro: #041833;
+  /* --azul-escuro: #041833; */
+  --vinho: #4b1a20;
+  --laranja-fundo: #ff8c00;
+  --post-fundo: #831d1c;
   --azul-medio: #1875E8;
   --cor-fonte-principal: #041833;
-  --cor-fonte-post: #444444;
-  --branco: #FFF;
+  --cor-fonte-post: #742322;
+  --branco: #F8F8FF;
   --fonte-principal: 'Raleway', sans-serif;
-  --fonte-secundaria: 'Playfair Display', sans-serif;
+  --fonte-secundaria: 'Poppins', sans-serif;
 
   font-family: var(--fonte-principal);
 }

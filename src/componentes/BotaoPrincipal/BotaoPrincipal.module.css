@@ -4,9 +4,9 @@
     padding: 0.75rem 1.5rem;
     font-size: 1.125rem;
     line-height: 1.125rem;
-    background-color: var(--azul-medio);
+    background-color: #ed9121;
     color: var(--branco);
-    border: 3px solid var(--azul-medio);
+    border: 3px solid #ed9121;
     cursor: pointer;
     transition: 0.2s
 }
@@ -20,3 +20,9 @@
 .botaoPrincipal:hover {
     border: 3px solid var(--azul-escuro);
 }
+
+.botaoPrincipal:hover {
+        background-color: var(--vinho);
+        border: var(--vinho);
+        color: var(--branco);
+    }

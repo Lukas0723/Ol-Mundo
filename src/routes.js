@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Post from "paginas/Post";
-import SobreMim from "./paginas/SobreMim";
+import SobreMim from "./paginas/SobreNos";
 import Inicio from "./paginas/inicio";
 import Menu from "./componentes/Menu";
 import Rodape from "componentes/Rodape";

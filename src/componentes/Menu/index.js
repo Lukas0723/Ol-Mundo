@@ -11,7 +11,7 @@ export default function Menu () {
                     Início
                 </MenuLink>
                 <MenuLink to='/sobremim'>
-                    Sobre Mim
+                    Sobre Nós
                 </MenuLink>
             </nav>
         </header>
